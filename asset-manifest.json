@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/techcurator-teask/static/css/main.20d3fbe0.chunk.css",
-    "main.js": "/techcurator-teask/static/js/main.3173cf9f.chunk.js",
-    "main.js.map": "/techcurator-teask/static/js/main.3173cf9f.chunk.js.map",
+    "main.js": "/techcurator-teask/static/js/main.9edf3db5.chunk.js",
+    "main.js.map": "/techcurator-teask/static/js/main.9edf3db5.chunk.js.map",
     "runtime-main.js": "/techcurator-teask/static/js/runtime-main.e1439475.js",
     "runtime-main.js.map": "/techcurator-teask/static/js/runtime-main.e1439475.js.map",
     "static/css/2.f2512455.chunk.css": "/techcurator-teask/static/css/2.f2512455.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.f2512455.chunk.css",
     "static/js/2.f21949c9.chunk.js",
     "static/css/main.20d3fbe0.chunk.css",
-    "static/js/main.3173cf9f.chunk.js"
+    "static/js/main.9edf3db5.chunk.js"
   ]
 }
