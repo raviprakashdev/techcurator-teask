@@ -1,38 +1,183 @@
-.App {
-  text-align: center;
+.nav-bg-color {
+    background-color: rgba(204, 204, 204, 0.25) !important;
+    /* height: 90px; */
+}
+.nav-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #929090;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.progress-bar {
+    background-color: #000000 !important;
+}
+.candidate-heading {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #000000;
+}
+.candidate-field {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #000000;
+    margin-top: 15px;
+}
+.progress {
+    height: 0.6rem;
+    background-color: #C4C4C4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.activeClick{
+
+  color: #000000 !important;
+}
+/* *************************** */
+
+.progressown {
+    width: 200px;
+    height: 200px !important;
+    line-height: 200px;
+    background: none;
+    box-shadow: none;
+    position: relative;
+    margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.progressown:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #c4c4c4;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.progressown > span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.progressown .progressown-left {
+    left: 0;
+}
+
+.progressown .progressown-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+
+.progressown .progressown-left .progressown-bar {
+    left: 100%;
+    border-top-right-radius: 125px;
+    border-bottom-right-radius: 125px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+
+.progressown .progressown-right {
+    right: 0;
+}
+
+.progressown .progressown-right .progressown-bar {
+    left: -100%;
+    border-top-left-radius: 125px;
+    border-bottom-left-radius: 125px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+
+.progressown .progressown-value {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background: #7d7d7d;
+    font-size: 24px;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.progressown.blue .progressown-bar {
+    border-color: #7d7d7d;
+}
+
+.progressown.blue .progressown-left .progressown-bar {
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+
+.progressown.yellow .progressown-bar {
+    border-color: #fdba04;
+}
+
+.progressown.yellow .progressown-right .progressown-bar {
+    animation: loading-3 1.8s linear forwards;
+}
+
+.progressown.yellow .progressown-left .progressown-bar {
+    animation: none;
+}
+
+@keyframes loading-1 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
 }
