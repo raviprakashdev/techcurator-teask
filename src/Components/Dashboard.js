@@ -67,8 +67,9 @@ const Dashboard = () => {
                                         style={{
                                             verticalAlign: "middle",
                                             marginTop: "-4px",
+                                            marginRight: "20px",
                                         }}
-                                        className="mr-4"
+                                        // className="mr-4"
                                     />
                                     <img
                                         src={thumpDown}
@@ -149,7 +150,6 @@ const Dashboard = () => {
                                         </div>
                                     </Col>
                                 </Row>
-                                
                             </Col>
                         </Row>
                     </Container>
@@ -186,7 +186,6 @@ const Dashboard = () => {
                                     </span>
                                     <div className="progressown-value">64%</div>
                                 </div>
-                                
                             </div>
                         </div>
                         <div
@@ -197,7 +196,10 @@ const Dashboard = () => {
                             }}
                             className="d-flex"
                         >
-                            <span className="d-flex align-item-center mr-2">
+                            <span
+                                className="d-flex align-item-center "
+                                style={{ marginRight: "15px" }}
+                            >
                                 <div
                                     style={{
                                         height: "15px",
