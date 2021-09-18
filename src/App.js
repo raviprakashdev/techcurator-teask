@@ -14,28 +14,19 @@ import {
     Nav,
     NavItem,
     NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText,
 } from "reactstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
-     const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
 
+    const toggle = () => setIsOpen(!isOpen);
 
-     const toggle = () => setIsOpen(!isOpen);
-  
     return (
         <Router>
-        <div>
-          
+            <div>
                 <Navbar expand="md" light className="nav-bg-color py-3">
-                    <NavbarBrand>
-                        
-                    </NavbarBrand>
+                    <NavbarBrand></NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto " navbar>
@@ -120,29 +111,15 @@ function App() {
                                 </NavLink>
                             </NavItem>
                         </Nav>
-                        {/* <NavbarText>Simple Text</NavbarText> */}
                     </Collapse>
                 </Navbar>
             </div>
             <div className="App">
                 <Switch>
-                    {/* <Route path="/signup">
-                        <Signup />
-                    </Route>
-                    <Route path="/login">
-                        <Login />
-                    </Route>
-                    <Route path="/Home">
-                        <Home />
-                    </Route> */}
                     <Route path="/">
                         <Dashboard />
                     </Route>
                 </Switch>
-                {/* <Home /> */}
-                {/* <Navigation />
-                <Signup />
-                <Login /> */}
             </div>
         </Router>
     );

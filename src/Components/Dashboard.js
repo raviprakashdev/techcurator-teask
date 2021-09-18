@@ -60,7 +60,6 @@ const Dashboard = () => {
                                 Action:
                             </Col>
                             <Col className="candidate-field">
-                                {/* <div style={{backgroundColor:"#C4C4C4",width:"fit-content",borderRadius:"5px",textDecoration:"underline"}} className="px-3">failed</div> */}
                                 <div>
                                     <img
                                         src={thumbUp}
