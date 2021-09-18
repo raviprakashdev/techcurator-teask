@@ -118,50 +118,39 @@ const Dashboard = () => {
                                     <Col>
                                         <div className="d-flex justify-content-between">
                                             <span>javaScript</span>
-                                            <span>25%</span>
+                                            <span>44%</span>
                                         </div>
 
                                         <div>
-                                            <Progress value="25" />
+                                            <Progress value="44" />
                                         </div>
                                     </Col>
                                 </Row>
                                 <Row className="my-4">
                                     <Col>
                                         <div className="d-flex justify-content-between">
-                                            <span>javaScript</span>
-                                            <span>25%</span>
+                                            <span>Java</span>
+                                            <span>30%</span>
                                         </div>
 
                                         <div>
-                                            <Progress value="25" />
+                                            <Progress value="30" />
                                         </div>
                                     </Col>
                                 </Row>
                                 <Row className="my-4">
                                     <Col>
                                         <div className="d-flex justify-content-between">
-                                            <span>javaScript</span>
-                                            <span>25%</span>
+                                            <span>Coding</span>
+                                            <span>43%</span>
                                         </div>
 
                                         <div>
-                                            <Progress value="25" />
+                                            <Progress value="43" />
                                         </div>
                                     </Col>
                                 </Row>
-                                <Row className="my-4">
-                                    <Col>
-                                        <div className="d-flex justify-content-between">
-                                            <span>javaScript</span>
-                                            <span>25%</span>
-                                        </div>
-
-                                        <div>
-                                            <Progress value="25" />
-                                        </div>
-                                    </Col>
-                                </Row>
+                                
                             </Col>
                         </Row>
                     </Container>
@@ -196,8 +185,9 @@ const Dashboard = () => {
                                     <span className="progressown-right">
                                         <span className="progressown-bar"></span>{" "}
                                     </span>
-                                    <div className="progressown-value">90%</div>
+                                    <div className="progressown-value">64%</div>
                                 </div>
+                                
                             </div>
                         </div>
                         <div

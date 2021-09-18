@@ -139,7 +139,7 @@
 }
 
 .progressown.yellow .progressown-right .progressown-bar {
-    animation: loading-3 1.8s linear forwards;
+    animation: loading-3 1.8s linear forwards 2.8;
 }
 
 .progressown.yellow .progressown-left .progressown-bar {
@@ -166,7 +166,7 @@
 
     100% {
         -webkit-transform: rotate(144deg);
-        transform: rotate(144deg);
+        transform: rotate(50.4deg);
     }
 }
 
