@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/techcurator-teask/static/css/main.f5fcaca6.chunk.css",
-    "main.js": "/techcurator-teask/static/js/main.4e09f840.chunk.js",
-    "main.js.map": "/techcurator-teask/static/js/main.4e09f840.chunk.js.map",
+    "main.css": "/techcurator-teask/static/css/main.20d3fbe0.chunk.css",
+    "main.js": "/techcurator-teask/static/js/main.3173cf9f.chunk.js",
+    "main.js.map": "/techcurator-teask/static/js/main.3173cf9f.chunk.js.map",
     "runtime-main.js": "/techcurator-teask/static/js/runtime-main.e1439475.js",
     "runtime-main.js.map": "/techcurator-teask/static/js/runtime-main.e1439475.js.map",
     "static/css/2.f2512455.chunk.css": "/techcurator-teask/static/css/2.f2512455.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.7b70212e.chunk.js.map": "/techcurator-teask/static/js/3.7b70212e.chunk.js.map",
     "index.html": "/techcurator-teask/index.html",
     "static/css/2.f2512455.chunk.css.map": "/techcurator-teask/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.f5fcaca6.chunk.css.map": "/techcurator-teask/static/css/main.f5fcaca6.chunk.css.map",
+    "static/css/main.20d3fbe0.chunk.css.map": "/techcurator-teask/static/css/main.20d3fbe0.chunk.css.map",
     "static/js/2.f21949c9.chunk.js.LICENSE.txt": "/techcurator-teask/static/js/2.f21949c9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e1439475.js",
     "static/css/2.f2512455.chunk.css",
     "static/js/2.f21949c9.chunk.js",
-    "static/css/main.f5fcaca6.chunk.css",
-    "static/js/main.4e09f840.chunk.js"
+    "static/css/main.20d3fbe0.chunk.css",
+    "static/js/main.3173cf9f.chunk.js"
   ]
 }
